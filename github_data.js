@@ -5,7 +5,9 @@
 // in an array when you have the file open.
 
 // Start with this
-// console.log(githubData[?].)
+
+
+// 8030403992.
 
 const githubData = [
     {
@@ -4415,3 +4417,5 @@ const githubData = [
       }
     }
   ]
+
+console.log(githubData[6].payload.commits[0].message);
